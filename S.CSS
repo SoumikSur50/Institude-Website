@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+li {
+    padding: 12px;
+    font-size: 13px;
+}
+a {
+    color: rgb(86, 85, 85);
+    text-decoration: none;
+}
+
+.hero {
+    background-color: rgb(254, 251, 238);
+    width: 100%;
+    height: 380px;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left {
+    width: 50%;
+}
+.left h2 {
+    font-size: 52px;
+    text-align: left;
+    width: 90%;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+.left p {
+    color: rgb(149, 148, 148);
+    font-size: 14px;
+}
+.btn {
+    margin: 12px 0;
+}
+.course {
+    background-color: rgb(221, 76, 117);
+    border: none;
+    padding: 7px;
+    font-size: 12px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.booking {
+    background-color: transparent;
+    padding: 7px;
+    font-size: 12px;
+    color: darkblue;
+    border-radius: 10px;
+    cursor: pointer;
+    border-color: darkblue;
+}
+.course:hover {
+    background-color: rgb(181, 66, 99);
+    transition: 0.5s ease;
+}
+iframe {
+    border-radius: 20px;
+}
+
+.lists {
+    display: flex;
+    justify-content: center;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    gap: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.feature-image img {
+    width: 30px;
+    height: 30px;
+}
+.description {
+    text-align: center;
+}
+.description span {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(221, 76, 117);
+}
+.description p {
+    color: rgb(149, 148, 148);
+    font-size: 15px;
+}
